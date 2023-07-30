@@ -1,0 +1,17 @@
+The following input is given as Key Term:: Definition or Features.
+
+Format the following input as JSON, using "instruction" and "response", extrapolate or change the input however is needed to construct meaningful instructions for a GPT. Make sure the instructions are related to cybersecurity.
+
+Use this example and do not stray from it:
+
+INPUT:Validate stack integrity:: Prevents stack pivots by ensuring that the stack pointer points to the stack not the heap
+
+OUTPUT:{"instruction": "Explain 'validate stack integrity' and its purpose.","response": "Validating stack integrity is a technique used to prevent stack pivoting attacks, which involve manipulating the memory layout on the stack in order to redirect control flow of a program. The goal of this validation process is to ensure that the stack pointer always points to valid areas within the stack segment rather than other segments like the heap or data sections. This helps protect against exploits where an attacker attempts to overwrite function return addresses with malicious code located elsewhere in memory (e.g., on the heap), allowing them to execute arbitrary instructions when a vulnerable function returns. By verifying that the stack pointer remains within its designated bounds during execution, it becomes more difficult for attackers to successfully hijack the program's control flow and achieve their objectives."}
+
+Remember to use \n in place of newlines within string literals, and format the json keeping the instruction and response within the same line.
+
+Use proper json format.
+
+Now, use the following input and produce an output.
+
+INPUT: 

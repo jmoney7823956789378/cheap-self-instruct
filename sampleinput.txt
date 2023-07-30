@@ -1,0 +1,19 @@
+Vulnerability:: A flaw or weakness that can be exploited by a threat actor.
+CWE - Common Weakness Enumeration:: A list of hardware and software weakness types by MITRE.
+Threat:: An agent, actor, or other that can cause harm, e.g. criminal, careless user, vulnerability scanner, and worm.
+Exploit:: Code or technique that takes advantage of a vulnerability.
+Risk:: Potential for loss or damage. Often risk = likelihood * impact
+Risk Reduction:: Preventing one or more aspects of risk. Such as denying the threat access, patching the vulnerability, or preventing the exploit.
+Penetration Testing:: Identify security vulnerabilities that could let an attacker either penetrate the network or computer systems or steal information, the goal is penetration.
+Red Team:: Tests detection and response capabilities of defenders using real world TTPs, the goal is to test the defenders.
+Purple Team:: Cross-functional team consisting of red and blue team personnel, the goal is to measure and provide metrics of blue team using ACE.
+ACE - Automation Coverage Effectiveness:: Metrics used to measure blue team responses. How automated? What is the scope? Is the detection reliable?
+Security Audits:: Testing against a fixed rigorous set of standards, i.e. security checklist.
+Vulnerability assessments:: Identify, quantify, and rank vulnerabilities without exploitation. The goal is to find vulnerabilities.
+Network services test:: Finding and exploiting target systems on a network. Often performed from the internet, but can also take from the intranet.
+Assumed breach test:: Find and exploit vulnerabilities from a "breached" system within the network.
+Web application test:: Find and exploit vulnerabilities in web-based applications deployed in the target environment.
+Social engineering test:: Attempts to dupe system users into providing information or downloading malicious software. Evaluates processes, procedures, and user awareness.
+Wireless security test:: Exploring a target's physical environment to find unauthorized or vulnerable wireless access points.
+Physical security testing:: Looking for flaws in the physical security practices such as unlocked doors, or unsecured laptops.
+Product security test:: A test performed against a specific hardware or software product to identify vulnerabilities.
